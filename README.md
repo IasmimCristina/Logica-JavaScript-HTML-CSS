@@ -3,4 +3,4 @@ Atividades e projetos do curso da Alura a fim de estudar a linguagem dentro da t
 
 * Projetos
 * Atividades
-* Coment
+* Comentários
