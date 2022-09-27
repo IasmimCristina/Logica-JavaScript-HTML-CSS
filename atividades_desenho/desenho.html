@@ -1,0 +1,32 @@
+<canvas width="500px" height="800px"> </canvas>
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'darkred';
+    pincel.fillRect(0, 0, 500, 800);
+
+    pincel.fillStyle = 'purple';
+    pincel.fillRect(0, 0, 100, 800);
+
+    pincel.fillStyle = 'yellow';
+    pincel.fillRect(200, 0, 100, 800);
+
+    pincel.fillStyle = 'lightblue';
+    pincel.fillRect(400, 0, 100, 800);
+
+    pincel.fillStyle = 'orange';
+    pincel.beginPath();
+    pincel.moveTo(250, 400); /*Metade*/
+    pincel.lineTo(100, 800); /*Três pontos*/
+    pincel.lineTo(400, 800);
+    pincel.fill();
+
+    pincel.fillStyle = 'lightblue';
+    pincel.beginPath();
+    pincel.arc(250, 350, 50, 0, 2 * 3.14);
+    pincel.fill();
+
+
+</script>
